@@ -1,0 +1,199 @@
+/* Form Styling section for CreateProductTitle.jsx and CreateAccountTitle.jsx */
+.createProduct-container {
+  margin-top: 28px;
+}
+.createProduct-container .form {
+  margin-left: 30%;
+}
+.createProduct-container .form .form-control {
+  width: 332px;
+  height: 36px;
+}
+.createProduct-container .form .row .col-md-6 .form-control {
+  width: 332px;
+  height: 36px;
+}
+.createProduct-container .form .input-group .form-user {
+  width: 332px;
+  height: 36px;
+}
+.createProduct-container .form .invalid-text {
+  color: red;
+  font-size: small;
+}
+.createProduct-container .form .form-select {
+  width: 284px;
+  height: 38px;
+}
+.createProduct-container .form .mb-3 .form-control {
+  display: flex;
+  flex: 1;
+  height: 38px;
+}
+.createProduct-container .form .mb-3 .form-control::-webkit-file-upload-button {
+  color: white !important;
+  background: #0d6efd !important;
+}
+.createProduct-container .form .mb-3 .description .form-control {
+  width: 603px;
+  height: 116px;
+}
+.createProduct-container .form .col-md-6 .form-control {
+  width: 603px;
+  height: 38px;
+}
+.btn {
+  width: 603px;
+  height: 38px;
+}
+
+.description {
+  width: 241px;
+  height: 99px;
+}
+.price {
+  width: 47px;
+  background-color: white;
+  border: 1px solid black;
+}
+.createProduct-container select {
+  width: 71px;
+}
+
+.table-primary {
+  font-size: 16px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.table-primary th,
+.table-primary td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table-primary th {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+.table-primary button {
+  height: 38px;
+  border-radius: 5px;
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+
+.table-primary tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Form Styling section for Footer.organism.jsx */
+.footer-container .form {
+  height: 239px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 426px;
+  background: rgba(243, 245, 250, 1);
+}
+.footer-container .form h3 {
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  align-items: center;
+  color: #37517e;
+}
+.footer-container .form p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 17.5px;
+  color: #444444;
+}
+
+.footer-container .form .username {
+  justify-content: center;
+  width: 600px;
+  height: 45px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 50px;
+}
+.footer-container .form .username:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+.footer-container .form .subscribe {
+  position: absolute;
+  right: 460px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+  background-color: #47b2e4;
+  border: #47b2e4;
+  color: white;
+}
+.footer-container .form .subscribe:hover {
+  background-color: white;
+  color: #47b2e4;
+}
+
+.footer-container .card {
+  height: 339.19px;
+  background: white;
+  padding: 2% 7%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-self: center;
+}
+.footer-container .card h2 {
+  font-family: "Jost", sans-serif;
+  color: #37517e;
+}
+.footer-container .card h4 {
+  font-family: "Jost", sans-serif;
+  color: #37517e;
+}
+.footer-container .card p {
+  font-family: "Open Sans", sans-serif;
+  color: #777777;
+  font-size: 12px;
+}
+.footer-container .card .links-list p {
+  padding: 10px;
+}
+.footer-container .card .services-list p {
+  padding: 10px;
+}
+.footer-container .card .socials-dot {
+  height: 30px;
+  width: 30px;
+  background-color: #47b2e4;
+  border-radius: 50%;
+  display: inline-block;
+}
+.footer-container .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  height: 81px;
+  background: #37517e;
+  color: white;
+}
