@@ -1,0 +1,42 @@
+/* Navbar.molecules.jsx Styling section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  height: 60px;
+  background-color: white;
+}
+.navbar .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 9px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: white;
+  background-color: transparent;
+  color: #0d6efd;
+  margin-right: 5px;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  border: #0d6efd;
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Title Styling section for CreateProductTitle.jsx and CreateAccountTitle.jsx*/
+
+.title > h1 {
+  font-size: 31px;
+}
+.title > p {
+  margin-left: 25%;
+  font-size: 16px;
+  width: 50%;
+  height: 60px;
+  color: #212529;
+}
